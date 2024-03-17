@@ -1,5 +1,5 @@
 body{
-    background-color: #414141;
+    background-color: black;
     color: #fff;
 }
 
@@ -15,7 +15,7 @@ h2{
 button{
     font-size: medium;
     padding: 15px;
-    background-color: grey;
+    background-color: green;
     color: white;
 }
 
