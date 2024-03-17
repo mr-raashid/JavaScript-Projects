@@ -1,0 +1,28 @@
+body{
+    background-color: #414141;
+    color: #fff;
+}
+
+.container{
+    text-align: center;
+    margin: 100px 0 auto;
+}
+
+h2{
+    font-size: 30px;
+}
+
+button{
+    font-size: medium;
+    padding: 15px;
+    background-color: grey;
+    color: white;
+}
+
+#text-quote{
+    background-color: #414141;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 150px;
+}
