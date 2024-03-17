@@ -1,0 +1,30 @@
+body{
+    background-color: #212121;
+    color: #fff;
+}
+
+.container{
+    text-align: center;
+    margin: 100px 0 auto;
+}
+
+h2{
+    font-size: 40px;
+}
+
+#input-field{
+    width: 200px;
+    height: 30px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.para{
+    text-align: center;
+}
