@@ -8,7 +8,7 @@ btn.addEventListener("click", () => {
     const newElement = document.createElement("p");
           newElement.classList.add("para");
     if(inputField.value === ""){
-        alert("Please enter valid text")
+        alert("Please enter valid text...")
     }
     else if(inputValue === result) {
         newElement.appendChild(document.createTextNode("Palindrome"));
