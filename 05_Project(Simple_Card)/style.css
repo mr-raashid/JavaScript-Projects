@@ -1,3 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: black;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    border-radius: 100%;
+    position: absolute;
+}
+
+#first-circle{
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    height: 120px;
+    width: 120px;
+    top: -50px;
+    left: -60px;
+}
+
+#second-circle{
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    height: 360px;
+    width: 360px;
+    top: -120px;
+    left: 280px;
+}
+
+#third-circle{
+    background-image: radial-gradient(69.62% 69.62% at 50% 50%, #EA8BFA 0%, #7526F5 100%);
+    height: 220px;
+    width: 220px;
+    bottom: -100px;
+    left: -150px;
+}
+
+.card{
+    height: 521px;
+    width: 405px;
+    background-image: linear-gradient(148deg, rgba(255, 255, 255, 0.4)0%, rgba(255, 255, 255, 0.10)100%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+.container{
+    position: relative;
 }
